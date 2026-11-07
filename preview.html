@@ -1,0 +1,49 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>adi-0704 — profile README preview</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; padding: 48px 24px 96px;
+    background: #0d1117; color: #e8ecf4;
+    font: 14px/1.6 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    display: flex; flex-direction: column; align-items: center; gap: 28px;
+  }
+  h1 { font-size: 15px; letter-spacing: 3px; color: #8ea0c0; font-weight: 400; margin: 0 0 8px; }
+  .note { color: #5d6f90; font-size: 12px; max-width: 880px; }
+  figure { margin: 0; width: 880px; max-width: 100%; }
+  figcaption { color: #5d6f90; font-size: 11px; letter-spacing: 2px; margin: 0 0 8px; }
+  img { width: 100%; height: auto; display: block; }
+  .bar { display: flex; gap: 10px; margin-bottom: 8px; }
+  button {
+    background: #0c1324; color: #8ea0c0; border: 1px solid #1b2740;
+    border-radius: 999px; padding: 7px 16px; font: inherit; font-size: 12px; cursor: pointer;
+  }
+  button:hover { color: #e8ecf4; border-color: #247bff; }
+  body.light { background: #ffffff; }
+  body.light .note, body.light figcaption { color: #57606a; }
+  body.narrow figure { width: 380px; }
+</style>
+
+<h1>PROFILE README PREVIEW</h1>
+<p class="note">
+  Each asset is loaded through <code>&lt;img&gt;</code>, exactly how GitHub renders it —
+  so if an animation plays here, it plays on your profile. Reload to replay the entrances.
+</p>
+
+<div class="bar">
+  <button onclick="document.body.classList.toggle('light')">toggle light background</button>
+  <button onclick="document.body.classList.toggle('narrow')">mobile width</button>
+  <button onclick="location.reload()">replay animations</button>
+</div>
+
+<figure><figcaption>assets/hero.svg</figcaption>
+  <img src="./assets/hero.svg" alt="Intro"></figure>
+<figure><figcaption>assets/about-life.svg</figcaption>
+  <img src="./assets/about-life.svg" alt="About"></figure>
+<figure><figcaption>assets/stack.svg</figcaption>
+  <img src="./assets/stack.svg" alt="Stack"></figure>
+<figure><figcaption>assets/id-dashboard.svg</figcaption>
+  <img src="./assets/id-dashboard.svg" alt="ID"></figure>
+<figure><figcaption>assets/connect.svg</figcaption>
+  <img src="./assets/connect.svg" alt="Connect"></figure>
